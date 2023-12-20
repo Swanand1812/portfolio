@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Personal portfolio</title>
+    <style>
+      /* Reset default browser styles */
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+
+      .header {
+        width: 100%;
+        height: 100vh;
+        background-color: whitesmoke;
+      }
+
+      /* Styles for navigation bar */
+      nav {
+        display: flex;
+        margin: auto;
+        width: 90%;
+        padding: 20px;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 10px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+      }
+
+      nav ul li a:hover {
+        background-color: seagreen;
+        border-radius: 2px;
+        color: white;
+      }
+
+      .button-cv,
+      .button-gfc {
+        display: inline-block;
+        margin-left: 0%;
+        border-radius: 5px;
+        transition: background-color 0.5s;
+        background: black;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      .button-cv:hover {
+        background-color: white;
+        color: black;
+      }
+
+      .button-gfc {
+        background: lightsalmon;
+      }
+
+      .button-gfc:hover {
+        background-color: white;
+        color: black;
+      }
+
+      /* Styles for body section */
+      .body {
+        margin-left: 100px;
+        margin-top: 100px;
+      }
+
+      .body h1 {
+        font-size: 30px;
+        color: black;
+        margin-bottom: 20px;
+      }
+
+      .demo1 {
+        color: orange;
+        margin-bottom: 30px;
+      }
+
+      .button-lrn:hover {
+        background-color: whitesmoke;
+        color: black;
+      }
+
+      .button-hire {
+        background: black;
+      }
+
+      .button-hire:hover {
+        background-color: seagreen;
+      }
+
+      span {
+        color: seagreen;
+      }
+
+      .image {
+        width: 45%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 100px;
+      }
+      .image img {
+        height: 70%;
+        position: absolute;
+        left: 50%;
+        bottom: 10%;
+        transform: translate(-60%);
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="header">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./one.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./two.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="project.html">My Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled"  href="./contactus.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Body section -->
+      <div class="body">
+        <p>Angular Developer</p>
+        <h1>Mr. Swanand <span>Joshi.</span></h1>
+      </div>
+
+      
+      <div class="image">
+        <img src="../Ts-Learn/angualrAnimation" />
+      </div>
+    </div>
+  </body>
+</html>
