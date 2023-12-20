@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sample Table</title>
+    <style>
+      /* Add some basic styling */
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+
+      th {
+        background-color:lightblue;
+      }
+
+      .design{
+        font: 1rem sans-serif;
+        text-align: center;
+        background-color: lightblue;
+      }
+
+      .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+      }
+      .image img {
+        max-width: 100%; 
+  max-height: 100%;
+    
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="design"><h2>MY INFORMATION</h2></div>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Occupation</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Swanand Joshi</td>
+          <td>27</td>
+          <td>Web Developer</td>
+
+          <div class="image">
+            <img src="../Portfolio/swanandImage.jpg" />
+          </div>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
